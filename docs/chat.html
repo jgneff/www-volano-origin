@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>VolanoChat Client</title>
+<link rev="made" href="mailto:webmaster@volano.com">
+</head>
+<body bgcolor="#ffffff">
+
+<table cellspacing=10>
+
+<tr>
+<td width=100 valign=top>
+<a href="index.html"><img src="volano.gif" alt="Volano" width=100 height=28 border=0></a>
+</td>
+<td valign=top>
+<h1>VolanoChat Client</h1>
+</td>
+</tr>
+
+<tr>
+<td width=100 valign=top>
+<font size="-1">
+<p><font color="#A0A0A0">VolanoChat</font>
+<p><a href="languages.html">Other&nbsp;Languages</a>
+<p><a href="pricing.html">Pricing</a>
+<p><a href="about.html">About&nbsp;Volano</a>
+<p><a href="index.html">Home</a>
+</td>
+</font>
+<td valign=top>
+<p>Press the button below to give VolanoChat a try.
+When the VolanoChat window appears, enter a nickname for yourself where
+it says <i>Your name</i> and press the button labeled <i>Enter Room</i>.
+You can also try VolanoChat in
+<a href="languages.html">other languages</a>!
+<p align=center>
+<applet codebase="http://chat.volano.com/classes"
+        archive="COM/volano/VolanoChat.zip"
+        code="COM.volano.VolanoChat.class"
+        width=400 height=60>
+<param name="cabbase" value="COM/volano/VolanoChat.cab">        
+<param name="color"   value="#ffffff">
+<param name="group"   value="Volano - http://www.volano.com/">
+<param name="text"    value="english.txt">
+<hr>
+<i>
+Sorry, but your Web browser is not Java compatible.
+Follow the links to 
+<a href="http://home.netscape.com/comprod/mirror/client_download.html">Netscape Navigator</a>
+or
+<a href="http://www.microsoft.com/ie/">Microsoft Internet Explorer</a>
+to download a Java compatible browser today.
+</i>
+<hr>
+</applet>
+</p>
+<h4>Quick tips:</h4>
+<ul>
+<li>Click once on a room name to see who's in the room.
+<li>Click once on a person's name to see his or her profile.
+<li>After entering a room, double click on a person's name to pull him
+or her into a private chat room.
+<li>If you're in a chat room alone but still want to test out the
+applet, just double click on your own name to chat privately with
+yourself.
+</ul>
+<h4>Adding chat to a Web page</h4>
+<p>Once you're running the VolanoChat Server at your site, adding chat
+is as easy as adding a few lines of HTML to a Web page.
+The HTML applet tag for the VolanoChat Client applet looks like the
+following, where the parts you modify are shown in
+<font color=red><i>italics</i></font>.
+<pre>
+&lt;applet codebase="http://<font color=red><i>chat.volano.com</i></font>/classes"
+        archive="COM/volano/VolanoChat.zip"
+        code="COM.volano.VolanoChat.class"
+        width=500 height=60&gt;
+&lt;param name="cabbase" value="COM/volano/VolanoChat.cab"&gt;
+&lt;param name="<font color=green>color</font>"   value="<font color=red><i>#ffffff</i></font>"&gt;
+&lt;param name="<font color=green>group</font>"   value="<font color=red><i>Your Room Name</i></font>"&gt;
+&lt;param name="<font color=green>text</font>"    value="<font color=red><i>english</i></font>.txt"&gt;
+&lt;/applet&gt;
+</pre>
+<p>where:
+<dl>
+<dt><font color=green><code>color</code></font>
+<dd>is the color you want for VolanoChat's Web page background.
+You can choose a color to match the background of your Web page.
+Use the same notation of <code>#RRGGBB</code> as your Web page's
+<code>bgcolor</code> attribute, where <code>RR</code> is the red
+hexadecimal value, <code>GG</code> is the green hexadecimal value, and
+<code>BB</code> is the blue hexadecimal value.
+The default color is white <code>(#ffffff)</code>.
+<dt><font color=green><code>group</code></font>
+<dd>is the name of the chat room you want created automatically when
+someone enters VolanoChat from your Web page.
+If you omit this parameter, no room for your Web page will be created,
+but you'll still be able to join other rooms.
+<dt><font color=green><code>text</code></font>
+<dd>is the translated text and properties for the applet.
+The default language is English, specified by <code>english.txt</code>.
+Instead of English, you can also specify <code>french.txt</code>,
+<code>german.txt</code>, <code>italian.txt</code>,
+<code>portuguese.txt</code>, or <code>spanish.txt</code>.
+</dl>
+<p>For more information about the HTML applet tag, see the page called
+<a href="http://java.sun.com/books/Series/Tutorial/applet/overview/html.html">Adding an Applet to an HTML Page</a>
+in the JavaSoft book
+<a href="http://java.sun.com/books/Series/Tutorial/index.html"><i>The Java Tutorial</i></a>.
+</td>
+</tr>
+
+<tr>
+<td width=100 valign=top>
+</td>
+<td valign=top>
+<hr>
+<font size="-1">
+Copyright &copy; 1996 Volano. All rights reserved.<br>
+Contact <a href="mailto:webmaster@volano.com">webmaster@volano.com</a> 
+with questions or comments.
+</font>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
